@@ -3,6 +3,22 @@ gunicorn>=21.2,<22.0
 dj-database-url>=2.0,<3.0
 whitenoise[brotli]>=6.0,<7.0
 
+aiohttp==3.8.5
+aiosignal==1.3.1
+async-timeout==4.0.3
+attrs==23.1.0
+certifi==2023.7.22
+charset-normalizer==3.2.0
+colorama==0.4.6
+frozenlist==1.4.0
+idna==3.4
+multidict==6.0.4
+openai==0.27.8
+requests==2.31.0
+tqdm==4.66.1
+urllib3==2.0.4
+yarl==1.9.2
+
 # Uncomment these lines to use a Postgres database. Both are needed, since in production
 # (which uses Linux) we want to install from source, so that security updates from the
 # underlying Heroku stack image are picked up automatically, thanks to dynamic linking.
