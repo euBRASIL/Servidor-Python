@@ -5,9 +5,7 @@ import sys
 
 
 def main():
-    openai.organization = "Eletron-Bit"
-    openai.api_key = os.getenv("0549690c-63df-4f22-8b9f-6a3359734272")
-    openai.Model.list()
+    
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gettingstarted.settings")
     
